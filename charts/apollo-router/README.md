@@ -2,8 +2,6 @@
 
 [Inigo Apollo Router](https://github.com/inigolabs/inigo-rs) 
 
-![Version: 2.0.0](https://img.shields.io/badge/Version-2.0.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v2.0.0](https://img.shields.io/badge/AppVersion-v2.0.0-informational?style=flat-square)
-
 ## Prerequisites
 
 * Kubernetes v1.19+
@@ -11,7 +9,7 @@
 ## Get Repo Info
 
 ```console
-helm pull oci://ghcr.io/inigolabs/helm-charts/apollo-router --version 2.0.0
+helm pull oci://ghcr.io/inigolabs/helm-charts/apollo-router --version 1.1.0
 ```
 
 ## Install Chart
@@ -19,7 +17,7 @@ helm pull oci://ghcr.io/inigolabs/helm-charts/apollo-router --version 2.0.0
 **Important:** only helm3 is supported
 
 ```console
-helm upgrade --install [RELEASE_NAME] oci://ghcr.io/inigolabs/helm-charts/apollo-router --version 2.0.0 --values my-values.yaml
+helm upgrade --install [RELEASE_NAME] oci://ghcr.io/inigolabs/helm-charts/apollo-router --version 1.1.0 --values my-values.yaml
 ```
 
 _See [configuration](#configuration) below._
