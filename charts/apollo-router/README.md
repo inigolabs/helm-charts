@@ -9,7 +9,7 @@
 ## Get Repo Info
 
 ```console
-helm pull oci://ghcr.io/inigolabs/helm-charts/apollo-router --version 1.1.0
+helm pull oci://ghcr.io/inigolabs/helm-charts/apollo-router --version 1.2.0
 ```
 
 ## Install Chart
@@ -17,7 +17,7 @@ helm pull oci://ghcr.io/inigolabs/helm-charts/apollo-router --version 1.1.0
 **Important:** only helm3 is supported
 
 ```console
-helm upgrade --install [RELEASE_NAME] oci://ghcr.io/inigolabs/helm-charts/apollo-router --version 1.1.0 --values my-values.yaml
+helm upgrade --install [RELEASE_NAME] oci://ghcr.io/inigolabs/helm-charts/apollo-router --version 1.2.0 --values my-values.yaml
 ```
 
 _See [configuration](#configuration) below._
